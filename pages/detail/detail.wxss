@@ -1,0 +1,62 @@
+/* pages/detail/detail.wxss */
+.detail-container{
+  display: flex;
+  flex-direction: column;
+}
+.imgs{
+  position: relative;
+}
+.header-img{
+  width: 100%;
+  height: 460rpx;
+}
+.music-img{
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 185rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.avatar-date{
+  padding: 20rpx;
+}
+.avatar-date image{
+  width: 64rpx;
+  height: 64rpx;
+  vertical-align: middle;
+}
+.avatar-date text{
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.title{
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-left: 20rpx
+}
+.collection{
+  position: relative;
+}
+.collection image{
+  width: 90rpx;
+  height:90rpx;
+  margin-left: 30rpx 
+}
+.collection-image{
+  float: right;
+  margin-right: 50rpx;
+}
+.line{
+  width: 90%;
+  height: 1px;
+  background: #eee;
+  position: absolute;
+  top: 45rpx;
+  left: 5%;
+  z-index: -1;
+}
+.detail-content{
+  font-size: 28rpx;
+  text-indent: 28rpx;
+}

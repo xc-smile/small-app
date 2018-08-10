@@ -1,0 +1,18 @@
+<!--pages/tamplate/list-tamplate.wxml-->
+<template name='list'>
+  <view class='list_container'>
+    <view class='avatar_date'>
+      <image src='{{avatar}}'></image>
+      <text>{{date}}</text>
+    </view>
+    <text class='title'>{{detail}}</text>
+    <image src='{{detail_img}}' class='contentImg'></image>
+    <text class='content'>{{detail_content}}</text>
+    <view class='star'>
+      <image src='/images/icon/star.png'></image>
+      <text>88</text>
+      <image src='/images/icon/view.png'></image>
+      <text>88</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class='indexContainer'>
+  <image src='{{userInfo.avatarUrl}}' class='indexImg'></image>
+   <button bindgetuserinfo='handleGetUserInfo' style='display: {{isShow?"block": "none"}}' open-type="getUserInfo">获取用户信息</button>
+  <text class='indexHello'>hello {{userInfo.nickName}}</text>
+  <view class='indexClick' catchtap='handleClick'>
+    <text>开始装逼吧</text>
+  </view>
+</view>
